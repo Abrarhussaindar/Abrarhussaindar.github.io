@@ -258,7 +258,7 @@ body {
 
         border-radius: 8px;
         margin: .1em;
-        // margin-left: .5em;
+        margin-left: .3em;
         height: max-content;
         border: 1px solid white;
 
@@ -299,7 +299,8 @@ body {
 
             .discription {
                 // border: 2px solid white;
-                margin: .3em;
+                margin: .4em;
+                font-size: 1.1em;
             }
         }
     }
@@ -968,8 +969,8 @@ body {
     .section_3 {
         border: 1px solid white;
         border-radius: 8px;
-        margin: .5em .1em;
-        padding: 1em;
+        margin: .2em;
+        // padding: 1em;
         height: max-content;
 
         // overflow: auto;
@@ -978,19 +979,21 @@ body {
 
             // border: 1px solid white;
             .projects {
+                // border: 1px solid white;
                 font-size: 20px;
+                margin: .3em;
                 text-decoration: underline;
                 margin-bottom: 10px;
             }
 
             .project_img_container {
                 // overflow: auto;
-                display: flex;
-                border: 1px solid white;
+                // display: flex;
+                // border: 1px solid white;
                 border-radius: 10px;
-                width: max-content;
-                height: max-content;
-                padding: 1em;
+                // width: max-content;
+                // height: max-content;
+                margin: .2em;
 
                 .kp,
                 .pks,
@@ -999,8 +1002,11 @@ body {
                         img {
                             border: 1px solid white;
                             border-radius: 10px;
-                            width: 40vw;
-                            margin: .2em;
+                            width: 80vw;
+                            margin-left: .8em;
+                            // display: flex;
+                            // justify-content: center;
+                            // margin: .2em;
                         }
                     }
 
@@ -1010,6 +1016,7 @@ body {
                         justify-content: center;
                         align-items: center;
                         margin: .4em;
+                        margin-top: -.1em;
                         // margin-left: 2em;
 
                         a {
