@@ -13,13 +13,14 @@ body {
     // background-position: center;
     // background-attachment: fixed;
     // background-size: cover;
+    width: 94%;
     background-color: #000000;
 }
 
 .navbar_container {
     // background-color: black;
     // color: white;
-    // border: 1px solid white;
+    // border: 2px solid white;
     // position: fixed;
     // border-radius: 8px;
     // margin: .1em;
@@ -27,12 +28,13 @@ body {
     // display: flex;
     // place-content: space-between;
 
-    position: fixed;
+    // position: fixed;
     top: 0;
     overflow: hidden;
     display: flex;
-    place-content: space-between;
-    margin: 1em;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5em;
 
 
     .ham {
@@ -41,17 +43,12 @@ body {
         justify-content: center;
 
         img {
-            width: 5vw;
+            width: 6vw;
         }
     }
 
     .logo {
-        margin-left: 11.3em;
-        // border: 1px solid rgb(255, 255, 255);
         display: flex;
-        justify-content: center;
-        font-size: 1.15em;
-
         &:hover {
             // font-size: 1.02em;
             color: rgb(128, 128, 128);
@@ -249,32 +246,40 @@ body {
 }
 
 .main_body {
-    margin-top: 5em;
+    // margin-top: 5em;
     height: max-content;
+    width: 94%;
+    margin: .5em;
+    // border: 2px solid white;
 
     .section_1 {
+
         border-radius: 8px;
         margin: .3em;
-        height: 87vh;
+        height: max-content;
+        border: 2px solid white;
 
         .pic {
+            // border: 2px solid white;
+            display: flex;
+            justify-content: center;
             img {
-                margin-top: .5em;
-                margin-left: 6em;
                 width: 60vw;
-                // opacity: .9;
-                border-radius: 50%;
+                border-radius: 45%;
                 cursor: pointer;
             }
         }
 
         .details {
-            margin-top: -3em;
+            margin-top: .2em;
             height: max-content;
+            // border: 2px solid white;
 
             .name {
-                margin-top: 2.5em;
-                margin-left: .7em;
+                // border: 2px solid white;
+                display: flex;
+                justify-content: center;
+                margin: .2em;
                 color: white;
                 font-weight: 500;
                 font-size: 20px;
@@ -282,16 +287,22 @@ body {
             }
 
             .pro {
-                margin-left: 1em;
+                display: flex;
+                justify-content: center;
+                // border: 2px solid white;
+                // margin-left: 1em;
+                margin: .2em;
             }
 
             .discription {
-                margin-left: 1em;
+                // border: 2px solid white;
+                margin: .3em;
             }
         }
     }
 
     .section_2 {
+        // border: 2px solid white;
         border: 1px solid white;
         border-radius: 8px;
         margin: .1em;

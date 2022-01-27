@@ -7,18 +7,23 @@
 }
 
 body {
+  width: 94%;
   background-color: #000000;
 }
 
 .navbar_container {
-  position: fixed;
   top: 0;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  place-content: space-between;
-  margin: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .5em;
 }
 
 .navbar_container .ham {
@@ -31,18 +36,13 @@ body {
 }
 
 .navbar_container .ham img {
-  width: 5vw;
+  width: 6vw;
 }
 
 .navbar_container .logo {
-  margin-left: 11.3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 1.15em;
 }
 
 .navbar_container .logo:hover {
@@ -229,47 +229,69 @@ body {
 }
 
 .main_body {
-  margin-top: 5em;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  width: 94%;
+  margin: .5em;
 }
 
 .main_body .section_1 {
   border-radius: 8px;
   margin: .3em;
-  height: 87vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border: 2px solid white;
+}
+
+.main_body .section_1 .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main_body .section_1 .pic img {
-  margin-top: .5em;
-  margin-left: 6em;
   width: 60vw;
-  border-radius: 50%;
+  border-radius: 45%;
   cursor: pointer;
 }
 
 .main_body .section_1 .details {
-  margin-top: -3em;
+  margin-top: .2em;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
 
 .main_body .section_1 .details .name {
-  margin-top: 2.5em;
-  margin-left: .7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .2em;
   color: white;
   font-weight: 500;
   font-size: 20px;
 }
 
 .main_body .section_1 .details .pro {
-  margin-left: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .2em;
 }
 
 .main_body .section_1 .details .discription {
-  margin-left: 1em;
+  margin: .3em;
 }
 
 .main_body .section_2 {
