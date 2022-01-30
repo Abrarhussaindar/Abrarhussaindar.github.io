@@ -19,7 +19,7 @@ body {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 1em;
+  margin: 1.6em;
 }
 
 .navbar_container .ham img {
@@ -31,7 +31,7 @@ body {
 }
 
 .main_body .section_1 {
-  margin: 1em;
+  margin: 1.7em;
 }
 
 .main_body .section_1 .pic {
@@ -39,9 +39,8 @@ body {
 }
 
 .main_body .section_1 .pic img {
-  margin-top: .5em;
-  width: 60vw;
-  margin-left: 3em;
+  width: 80vw;
+  margin-left: 1em;
   border-radius: 20%;
 }
 
@@ -60,7 +59,7 @@ body {
 
 .main_body .section_1 .details .discription {
   margin-top: .8em;
-  font-size: .95em;
+  font-size: .9em;
 }
 
 .main_body .section_1 .mouse_scroll {
