@@ -80,14 +80,18 @@ img{
                 font-size: .9em;
             }
         }
+        .scroll{
+            display: flex;
+            justify-content: center;
+        }
         .mouse_scroll{
             width: 1.5em;
             height: 2.5em;
             border: 2px solid white;
             border-radius: 30px;
             position: relative;
-            margin-left: 10em;
-            margin-top: 6em;
+            // margin-left: 10em;
+            // margin-top: 6em;
 
             &::before{
                 content: '';
