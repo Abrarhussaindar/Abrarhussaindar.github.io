@@ -34,6 +34,146 @@ body {
   display: none;
 }
 
+.navbar_container nav.menu-btn {
+  display: block;
+}
+
+.navbar_container .nav_menu {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/footer_lodyas.png);
+  background-size: contain;
+  border-radius: 0 10px;
+}
+
+.navbar_container .nav_menu .nav_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar_container .nav_menu .nav_head .logo {
+  margin: .7em;
+  font-size: 1.2em;
+}
+
+.navbar_container .nav_menu .nav_head span {
+  vertical-align: 25px;
+  font-size: 11.5px;
+}
+
+.navbar_container .nav_menu .nav_head .menu_exit {
+  margin: 1em;
+}
+
+.navbar_container .nav_menu .nav_head .menu_exit img {
+  width: 8vw;
+}
+
+.navbar_container .nav_menu .nav_con {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.navbar_container .nav_menu .nav_con ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar_container .nav_menu .nav_con ul li {
+  list-style: none;
+}
+
+.navbar_container .nav_menu .nav_con ul li:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 6em;
+  font-weight: none;
+  opacity: 0;
+  letter-spacing: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+.navbar_container .nav_menu .nav_con ul li:hover:before {
+  opacity: 0.2;
+  letter-spacing: 0px;
+}
+
+.navbar_container .nav_menu .nav_con ul li a {
+  position: relative;
+  display: block;
+  margin: .5em;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.navbar_container .nav_menu .nav_con ul:hover li a {
+  opacity: 0;
+}
+
+.navbar_container .nav_menu .nav_con ul li a:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  z-index: 1000;
+  background: #ffffff;
+  border: 2px solid black;
+  color: black;
+  opacity: 1;
+}
+
+.navbar_container .nav_menu .nav_con ul li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 80px;
+  height: 100px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.6)), to(transparent));
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.6), transparent);
+  -webkit-transform: skewx(35deg);
+          transform: skewx(35deg);
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.navbar_container .nav_menu .nav_con ul li a:hover:before {
+  left: calc(100% + 100px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
 img {
   width: 5vw;
 }
@@ -103,8 +243,8 @@ img {
 
 .main_body .section_1 .mouse_scroll::before {
   content: '';
-  width: .4em;
-  height: .4em;
+  width: 1em;
+  height: 1em;
   border-radius: 50%;
   background: white;
   position: absolute;
@@ -116,23 +256,23 @@ img {
 }
 
 @-webkit-keyframes scroll {
-  0% {
-    bottom: 80%;
+  10% {
+    bottom: 55%;
     opacity: 1;
   }
   100% {
-    bottom: 20%;
+    bottom: 0%;
     opacity: 0;
   }
 }
 
 @keyframes scroll {
-  0% {
-    bottom: 80%;
+  10% {
+    bottom: 55%;
     opacity: 1;
   }
   100% {
-    bottom: 20%;
+    bottom: 0%;
     opacity: 0;
   }
 }
