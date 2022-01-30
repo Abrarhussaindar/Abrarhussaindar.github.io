@@ -23,7 +23,7 @@ body {
 }
 
 .navbar_container .ham img {
-  width: 8vw;
+  width: 6vw;
 }
 
 .navbar_container .nav_menu {
@@ -40,8 +40,8 @@ body {
 
 .main_body .section_1 .pic img {
   margin-top: .5em;
-  width: 80vw;
-  margin-left: .5em;
+  width: 60vw;
+  margin-left: 3em;
   border-radius: 20%;
 }
 
@@ -55,11 +55,12 @@ body {
 .main_body .section_1 .details .quote {
   margin-top: .5em;
   letter-spacing: .5px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .main_body .section_1 .details .discription {
   margin-top: .8em;
+  font-size: .95em;
 }
 
 .main_body .section_1 .mouse_scroll {
@@ -69,7 +70,7 @@ body {
   border-radius: 30px;
   position: relative;
   margin-left: 8.5em;
-  margin-top: .7em;
+  margin-top: 1.2em;
 }
 
 .main_body .section_1 .mouse_scroll::before {
