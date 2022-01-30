@@ -62,16 +62,17 @@ img{
             // border: 2px solid white;
             .name{
                 // border: 2px solid white;
-                // display: flex;
-                // justify-content: center;
-                width: max-content;
-                margin-left: 6.6em;
+                display: flex;
+                justify-content: center;
+                // width: max-content;
+                // margin-left: 6.6em;
             }
 
             .quote{
                 // border: 2px solid white;
                 // width: max-content;
-                margin-top: .5em;
+                display: flex;
+                justify-content: center;
                 margin: 1em;
                 letter-spacing: .5px;
                 line-height: 35px;
@@ -80,9 +81,9 @@ img{
             .discription{
                 // border: 2px solid white;
                 // margin-top: 1.5em;
-                margin: 1.2em;
-                margin-top: 2em;
-                font-size: .9em;
+                display: flex;
+                justify-content: center;
+                margin: 1em;
             }
         }
         .scroll{
@@ -96,7 +97,7 @@ img{
             border-radius: 30px;
             position: relative;
             // margin-left: 10em;
-            margin-top: 1em;
+            // margin-top: 1em;
 
             &::before{
                 content: '';
