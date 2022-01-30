@@ -20,7 +20,8 @@ body {
 }
 
 .navbar_container{
-    // border: 2px solid white;
+    border: 2px solid white;
+    // margin-top: .5em;
     .ham{
         // border: 2px solid white;
         width: max-content;
@@ -204,10 +205,10 @@ img{
 
 .main_body{
     // border: 2px solid white;
-    // margin: .5em;
+    margin-top: .5em;
     .section_1{
-        // border: 2px solid white;
-        // margin-bottom: 1em;
+        border: 2px solid white;
+        // margin: 1em;
 
         .pic{
             // margin: .5em;
@@ -295,7 +296,7 @@ img{
     }
 
     .section_3{
-        // border: 1px solid white;
+        border: 2px solid white;
         margin-top: 1em;
         .project_container{
             // border: 1px solid white;
@@ -367,8 +368,9 @@ img{
 }
 
 .footer{
+    border: 2px solid white;
+    margin-top: .5em;
     .contact_me{
-        // border: 1px solid white;
         margin: 1em;
 
         .details{
