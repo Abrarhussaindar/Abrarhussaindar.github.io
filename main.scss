@@ -9,10 +9,11 @@
 }
 
 body {
-    width: 100.12%;
+    width: 100vw;
     // height: 100vh;
     background-image: url(./images/footer_lodyas.png);
     background-size: contain;
+    // overflow: hidden;
 }
 
 .navbar_container{
@@ -45,13 +46,15 @@ img{
 
         .pic{
             // margin: .5em;
+            display: flex;
+            justify-content: center;
             // border: 2px solid white;
             img{
                 // border: 2px solid blue;
                 // margin: .2em;
-                margin-top: .5em;
-                width: 70vw;
-                margin-left: 3.2em;
+                // margin-top: .5em;
+                width: 80vw;
+                // margin-left: 3.2em;
                 border-radius: 20%;
             }
         }
@@ -59,6 +62,8 @@ img{
             // border: 2px solid white;
             .name{
                 // border: 2px solid white;
+                // display: flex;
+                // justify-content: center;
                 width: max-content;
                 margin-left: 6.6em;
             }
@@ -69,14 +74,14 @@ img{
                 margin-top: .5em;
                 margin: 1em;
                 letter-spacing: .5px;
-                line-height: 28px;
+                line-height: 35px;
             }
 
             .discription{
                 // border: 2px solid white;
                 // margin-top: 1.5em;
                 margin: 1.2em;
-                margin-top: 3em;
+                margin-top: 2em;
                 font-size: .9em;
             }
         }
@@ -91,7 +96,7 @@ img{
             border-radius: 30px;
             position: relative;
             // margin-left: 10em;
-            // margin-top: 6em;
+            margin-top: 1em;
 
             &::before{
                 content: '';
