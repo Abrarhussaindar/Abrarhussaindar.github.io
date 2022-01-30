@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 99%;
+    width: 98%;
     background-image: url(./images/footer_lodyas.png);
     background-size: contain;
 }
@@ -20,7 +20,7 @@ body {
         // border: 2px solid white;
         width: max-content;
         height: min-content;
-        margin: 1.6em;
+        margin: 1em;
         img{
             width: 6vw;
         }
@@ -36,21 +36,21 @@ img{
 }
 
 .main_body{
-    border: 2px solid white;
+    // border: 2px solid white;
     // margin-top: .5em;
     .section_1{
         border: 2px solid white;
-        margin: 1.7em;
+        // margin: 1em;
 
         .pic{
-            margin: .5em;
-            border: 2px solid white;
+            // margin: .5em;
+            // border: 2px solid white;
             img{
-                
+                border: 2px solid blue;
                 // margin: .2em;
                 // margin-top: .5em;
                 width: 70vw;
-                margin-left: .7em;
+                margin-left: 3.2em;
                 border-radius: 20%;
             }
         }
@@ -59,13 +59,14 @@ img{
             .name{
                 // border: 2px solid white;
                 width: max-content;
-                margin-left: 5em;
+                margin-left: 7.2em;
             }
 
             .quote{
                 // border: 2px solid white;
                 // width: max-content;
                 margin-top: .5em;
+                margin: 1em;
                 letter-spacing: .5px;
                 line-height: 28px;
             }
@@ -73,6 +74,7 @@ img{
             .discription{
                 // border: 2px solid white;
                 margin-top: .8em;
+                margin: 1em;
                 font-size: .9em;
             }
         }
@@ -82,8 +84,8 @@ img{
             border: 2px solid white;
             border-radius: 30px;
             position: relative;
-            margin-left: 8.5em;
-            margin-top: 1.2em;
+            margin-left: 10em;
+            margin-top: 5em;
 
             &::before{
                 content: '';
@@ -113,5 +115,17 @@ img{
         }
 
         
+    }
+
+    .section_3{
+        // border: 1px solid white;
+        // margin: 1em;
+        .project_container{
+            border: 1px solid white;
+            margin: 1em;
+            .projects{
+                border: 1px solid white;
+            }
+        }
     }
 }

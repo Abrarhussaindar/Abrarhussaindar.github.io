@@ -7,7 +7,7 @@
 }
 
 body {
-  width: 99%;
+  width: 98%;
   background-image: url(./images/footer_lodyas.png);
   background-size: contain;
 }
@@ -23,7 +23,7 @@ body {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin: 1.6em;
+  margin: 1em;
 }
 
 .navbar_container .ham img {
@@ -38,23 +38,14 @@ img {
   width: 5vw;
 }
 
-.main_body {
-  border: 2px solid white;
-}
-
 .main_body .section_1 {
-  border: 2px solid white;
-  margin: 1.7em;
-}
-
-.main_body .section_1 .pic {
-  margin: .5em;
   border: 2px solid white;
 }
 
 .main_body .section_1 .pic img {
+  border: 2px solid blue;
   width: 70vw;
-  margin-left: .7em;
+  margin-left: 3.2em;
   border-radius: 20%;
 }
 
@@ -62,17 +53,19 @@ img {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin-left: 5em;
+  margin-left: 7.2em;
 }
 
 .main_body .section_1 .details .quote {
   margin-top: .5em;
+  margin: 1em;
   letter-spacing: .5px;
   line-height: 28px;
 }
 
 .main_body .section_1 .details .discription {
   margin-top: .8em;
+  margin: 1em;
   font-size: .9em;
 }
 
@@ -82,8 +75,8 @@ img {
   border: 2px solid white;
   border-radius: 30px;
   position: relative;
-  margin-left: 8.5em;
-  margin-top: 1.2em;
+  margin-left: 10em;
+  margin-top: 5em;
 }
 
 .main_body .section_1 .mouse_scroll::before {
@@ -120,5 +113,14 @@ img {
     bottom: 20%;
     opacity: 0;
   }
+}
+
+.main_body .section_3 .project_container {
+  border: 1px solid white;
+  margin: 1em;
+}
+
+.main_body .section_3 .project_container .projects {
+  border: 1px solid white;
 }
 /*# sourceMappingURL=main.css.map */
