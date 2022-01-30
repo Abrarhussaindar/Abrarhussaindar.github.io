@@ -16,10 +16,6 @@ body {
   background-size: contain;
 }
 
-.navbar_container {
-  border: 2px solid white;
-}
-
 .navbar_container .ham {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -190,10 +186,6 @@ img {
   margin-top: .5em;
 }
 
-.main_body .section_1 {
-  border: 2px solid white;
-}
-
 .main_body .section_1 .pic {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -294,7 +286,6 @@ img {
 }
 
 .main_body .section_3 {
-  border: 2px solid white;
   margin-top: 1em;
 }
 
@@ -369,7 +360,6 @@ img {
 }
 
 .footer {
-  border: 2px solid white;
   margin-top: .5em;
 }
 
