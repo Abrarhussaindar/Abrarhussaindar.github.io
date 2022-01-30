@@ -5,6 +5,9 @@
     padding: 0;
     font-family: 'Poppins';
     color: white;
+    a{
+        text-decoration: none;
+    }
     // border: 2px solid white;
 }
 
@@ -39,10 +42,10 @@ img{
 
 .main_body{
     // border: 2px solid white;
-    margin-top: .5em;
+    // margin: .5em;
     .section_1{
         // border: 2px solid white;
-        // margin: 1em;
+        // margin-bottom: 1em;
 
         .pic{
             // margin: .5em;
@@ -97,7 +100,7 @@ img{
             border-radius: 30px;
             position: relative;
             // margin-left: 10em;
-            // margin-top: 1em;
+            margin-bottom: 1em;
 
             &::before{
                 content: '';
@@ -131,13 +134,99 @@ img{
 
     .section_3{
         // border: 1px solid white;
-        // margin: 1em;
+        margin-top: 1em;
         .project_container{
-            border: 1px solid white;
-            margin: 1em;
+            // border: 1px solid white;
+            // margin: 1em;
             .projects{
-                border: 1px solid white;
+                margin: 1em;
+                // border: 1px solid white;
+                a{
+                    text-decoration: none;
+                }
+            }
+
+            .project_img_container{
+                // border: 1px solid white;
+                display: grid;
+                justify-content: center;
+                .kp,.pks,.dummy{
+                    margin-top: .5em;
+                    border: 1px solid white;
+                    border-radius: 30px;
+                    a{
+                        img{
+                            width: 70vw;
+                            border-radius: 30px;
+                        }
+                    }
+                    .pro{
+                        // border: 1px solid white;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .details{
+                margin: 1em;
             }
         }
+    }
+
+    .section_2{
+        border: 1px solid white;
+        margin-top: 1em;
+        display: none;
+
+        .language{
+            border: 1px solid white;
+            margin: 1em;
+        }
+
+        .lang_container{
+            border: 1px solid white;
+            margin: 1em;
+            
+
+            .img_container{
+                display: grid;
+                justify-content: right;
+                // margin: 1em;
+                img{
+                    margin: .5em;
+                    width: 25vw;
+                    border: 2px solid blue;
+
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    .contact_me{
+        // border: 1px solid white;
+        margin: 1em;
+
+        .details{
+            margin-top: .5em;
+        }
+
+        .email-div,.phone-div{
+            margin-top: .5em;
+
+            display: flex;
+            justify-content: space-between;
+
+            .num{
+                margin-right: 6.2em;
+            }
+        }
+    }
+    .copyright{
+        // border: 1px solid white;
+        margin: 1em;
+        font-size: 13px;
     }
 }

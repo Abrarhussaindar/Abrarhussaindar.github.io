@@ -6,6 +6,10 @@
   color: white;
 }
 
+* a {
+  text-decoration: none;
+}
+
 body {
   width: 100vw;
   background-image: url(./images/footer_lodyas.png);
@@ -32,10 +36,6 @@ body {
 
 img {
   width: 5vw;
-}
-
-.main_body {
-  margin-top: .5em;
 }
 
 .main_body .section_1 .pic {
@@ -98,6 +98,7 @@ img {
   border: 2px solid white;
   border-radius: 30px;
   position: relative;
+  margin-bottom: 1em;
 }
 
 .main_body .section_1 .mouse_scroll::before {
@@ -136,12 +137,104 @@ img {
   }
 }
 
-.main_body .section_3 .project_container {
+.main_body .section_3 {
+  margin-top: 1em;
+}
+
+.main_body .section_3 .project_container .projects {
+  margin: 1em;
+}
+
+.main_body .section_3 .project_container .projects a {
+  text-decoration: none;
+}
+
+.main_body .section_3 .project_container .project_img_container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_body .section_3 .project_container .project_img_container .kp, .main_body .section_3 .project_container .project_img_container .pks, .main_body .section_3 .project_container .project_img_container .dummy {
+  margin-top: .5em;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.main_body .section_3 .project_container .project_img_container .kp a img, .main_body .section_3 .project_container .project_img_container .pks a img, .main_body .section_3 .project_container .project_img_container .dummy a img {
+  width: 70vw;
+  border-radius: 30px;
+}
+
+.main_body .section_3 .project_container .project_img_container .kp .pro, .main_body .section_3 .project_container .project_img_container .pks .pro, .main_body .section_3 .project_container .project_img_container .dummy .pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_body .section_3 .project_container .details {
+  margin: 1em;
+}
+
+.main_body .section_2 {
+  border: 1px solid white;
+  margin-top: 1em;
+  display: none;
+}
+
+.main_body .section_2 .language {
   border: 1px solid white;
   margin: 1em;
 }
 
-.main_body .section_3 .project_container .projects {
+.main_body .section_2 .lang_container {
   border: 1px solid white;
+  margin: 1em;
+}
+
+.main_body .section_2 .lang_container .img_container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.main_body .section_2 .lang_container .img_container img {
+  margin: .5em;
+  width: 25vw;
+  border: 2px solid blue;
+}
+
+.footer .contact_me {
+  margin: 1em;
+}
+
+.footer .contact_me .details {
+  margin-top: .5em;
+}
+
+.footer .contact_me .email-div, .footer .contact_me .phone-div {
+  margin-top: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .contact_me .email-div .num, .footer .contact_me .phone-div .num {
+  margin-right: 6.2em;
+}
+
+.footer .copyright {
+  margin: 1em;
+  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */
