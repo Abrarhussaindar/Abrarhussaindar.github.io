@@ -22,6 +22,9 @@ body {
 .navbar_container{
     // border: 2px solid white;
     // margin-top: .5em;
+    display: flex;
+
+    justify-content: space-between;
     .ham{
         // border: 2px solid white;
         width: max-content;
@@ -30,6 +33,17 @@ body {
         img{
             width: 6vw;
         }
+    }
+    .logo {
+        margin: 1.2em;
+        font-size: 13px;
+    }
+
+    span {
+        // border: 1px solid white;
+        vertical-align: 25px;
+        font-size: 9px;
+        // margin-bottom: 5em;
     }
 
     .nav_menu {
@@ -57,13 +71,11 @@ body {
         // background-color: #000000;
         // border: 2px solid white;
         border-radius: 0 10px;
-// position: relative;
+
         .nav_head{
             display: flex;
             justify-content: space-between;
             // border: 1px solid white;
-            // height: max-content;
-            // position: relative;
             .logo {
                 margin: 1.2em;
                 font-size: 13px;
@@ -91,11 +103,10 @@ body {
 
 
         .nav_con {
-            position: absolute;
-            top: 10%;
-            left: 28%;
+            // position: absolute;
+            // top: 25%;
+            // left: 25%;
             display: flex;
-            font-size: 1.2em;
             margin-top: 4em;
             justify-content: center;
         
@@ -112,7 +123,7 @@ body {
             ul li:before {
                 content: attr(data-text);
                 position: absolute;
-                top: 10%;
+                top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 color: #fff;
@@ -188,145 +199,11 @@ img{
 }
 
 .main_body{
-    // border: 2px solid white;
-    // height: 100vh;
-    margin-top: .5em;
+    // border: 1px solid white;
+    margin: 1em;
+    margin-top: -1em;
+    
     .section_1{
-        // border: 2px solid white;
-        // margin: 1em;
-        // height: 100vh;
-        
-
-        .pic{
-            // margin: .5em;
-            display: flex;
-            justify-content: center;
-            // border: 2px solid white;
-            img{
-                // border: 2px solid blue;
-                // margin: .2em;
-                // margin-top: .5em;
-                width: 90vw;
-                // margin-left: 3.2em;
-                border-radius: 20%;
-            }
-        }
-        .details{
-            // border: 2px solid white;
-            .name{
-                // border: 2px solid white;
-                margin-top: .5em;
-                display: flex;
-                justify-content: center;
-                // width: max-content;
-                // margin-left: 6.6em;
-            }
-
-            .quote{
-                // border: 2px solid white;
-                // width: max-content;
-                display: flex;
-                justify-content: center;
-                margin: 1em;
-                letter-spacing: .5px;
-                line-height: 35px;
-            }
-
-            .discription{
-                // border: 2px solid white;
-                // margin-top: 1.5em;
-                display: flex;
-                justify-content: center;
-                margin: 1em;
-            }
-        }
-        .scroll{
-            display: flex;
-            justify-content: center;
-        }
-        .mouse_scroll{
-            width: 1.5em;
-            height: 2.5em;
-            border: 2px solid white;
-            border-radius: 30px;
-            position: relative;
-            // margin-left: 10em;
-            margin-bottom: 1em;
-
-            &::before{
-                content: '';
-                // margin-top: 2em;
-                width: 1em;
-                height: 1em;
-                border-radius: 50%;
-                background: white;
-                position: absolute;
-                left: 50%;
-                // top: 10%;
-                transform: translateX(-50%);
-                animation: scroll 2.5s infinite;
-            }
-        }
-
-        @keyframes scroll {
-            10% {
-                bottom: 55%;
-                opacity: 1;
-            }
-
-            100% {
-                bottom: 0%;
-                opacity: 0;
-            }
-        }
-
-        
-    }
-
-    .section_3{
-        // border: 2px solid white;
-        margin-top: 1em;
-        .project_container{
-            // border: 1px solid white;
-            // margin: 1em;
-            .projects{
-                margin: 1em;
-                // border: 1px solid white;
-                a{
-                    text-decoration: none;
-                }
-            }
-
-            .project_img_container{
-                // border: 1px solid white;
-                display: grid;
-                justify-content: center;
-                .kp,.pks,.dummy{
-                    margin-top: .5em;
-                    border: 1px solid white;
-                    border-radius: 30px;
-                    a{
-                        img{
-                            width: 70vw;
-                            border-radius: 30px;
-                        }
-                    }
-                    .pro{
-                        // border: 1px solid white;
-                        display: flex;
-                        justify-content: center;
-                    }
-                }
-            }
-
-            .details{
-                margin: 1em;
-            }
-        }
-    }
-
-    .section_2{
-        margin: 1em;
         .title{
             margin-bottom: 1em;
         }
