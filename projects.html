@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="./projects.css" />
+</head>
+
+<body>
+    <div class="navbar_container">
+        <div class="ham">
+            <img id="menu_btn" src="./images/icons8-menu.svg" alt="ham" />
+        </div>
+        <div class="logo">
+            <div class="name">Abrar Hussain Dar</div>
+            <span> FullStack Developer </span>
+        </div>
+        <nav class="nav_menu">
+            <div class="nav_head">
+                <div class="menu_exit">
+                    <img id="menu_exit" src="./images/white_close.svg" alt="" />
+                </div>
+                <div class="logo">
+                    <div class="name">Abrar Hussain Dar</div>
+                    <span> FullStack Developer </span>
+                </div>
+            </div>
+
+            <div class="nav_con">
+                <ul>
+                    <li data-text="Home">
+                        <div class="nav_item">
+                            <a href="./index.html">Home</a>
+                        </div>
+                    </li>
+                    <li data-text="Projects">
+                        <div class="nav_item">
+                            <a href="./projects.html">Projects</a>
+                        </div>
+                    </li>
+                    <li data-text="My Skills">
+                        <div class="nav_item">
+                            <a href="./my_skills.html">My Skills</a>
+                        </div>
+                    </li>
+                    <li data-text="About Me">
+                        <div class="nav_item">
+                            <a href="./about_me.html">About Me</a>
+                        </div>
+                    </li>
+                    <li data-text="Contact Me">
+                        <div class="nav_item">
+                            <a href="./contact_me.html">Contact Me</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="main_body">
+        <div class="section_1">
+            <div class="title">
+                Projects
+            </div>
+
+            <div class="pro">
+                <a href="#"><img src="./images/me.jpg" alt=""></a>
+                <div class="pro_name">
+                    <a href="#">Knowledge Pro</a>
+                </div>
+            </div>
+            <div class="pro">
+                <a href="#"><img src="./images/me.jpg" alt=""></a>
+                <div class="pro_name">
+                    <a href="#">PanunKeshur Store</a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href="#"><img src="./images/me.jpg" alt=""></a>
+                <div class="pro_name">
+                    <a href="#">Al-Kauther</a>
+                </div>
+            </div>
+
+            <div class="pro">
+                <a href="#"><img src="./images/me.jpg" alt=""></a>
+                <div class="pro_name">
+                    <a href="#">Dummy</a>
+                </div>
+            </div>
+
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores porro aliquam corporis suscipit
+                praesentium velit dolores modi quos magnam blanditiis, similique, illum obcaecati maiores nam
+                perspiciatis neque temporibus. Laudantium, praesentium?
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <hr />
+        <div class="contact_me">
+            Contact Me
+            <div class="details">
+                Feel free to reach out to me any time. I prefer to talk over email,
+                especially since we may be a few time zones away.
+                <div class="con">
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <hr />
+            <div class="email-div">
+                <div class="email">Email</div>
+                <div class="mail">abrardar988651@gmail.com</div>
+            </div>
+
+            <div class="phone-div">
+                <div class="phone">Phone</div>
+                <div class="num">+91 6006045264</div>
+            </div>
+        </div>
+        <!-- <div class="follow_me">
+            Follow Me :-
+            <div class="grid">
+                <div class="facebook">
+                    <span><img src="./images/social/fb.png" alt=""></span> <a href="#">Facebook</a>
+                </div>
+                <div class="insta">
+                    <span><img src="./images/social/insta.png" alt=""></span><a href="#">Instagram</a>
+                </div>
+                
+                <div class="twitter">
+                    <span><img src="./images/social/twitter.png" alt=""></span><a href="#">Twitter</a>
+                </div>
+                <div class="stack">
+                    <span><img src="./images/social/stack.png" alt=""></span> <a href="#">StackOverflow</a>
+                </div>
+                <div class="linkdin">
+                    <span><img src="./images/social/link.png" alt=""></span><a href="#">LinkedIn</a>
+                </div>
+            </div>
+            
+
+        </div> -->
+
+        <div class="copyright">
+            &#169; 2021 Abrar Hussain Dar, All rights reserved.&#128514;
+        </div>
+    </div>
+    <script>
+        const naviBtn = document.getElementById("menu_btn");
+        navBtn = document.querySelector(".nav_menu");
+        navBtnExit = document.getElementById("menu_exit");
+
+        naviBtn.addEventListener("click", () => {
+            navBtn.classList.add("menu-btn");
+        });
+
+        navBtnExit.addEventListener("click", () => {
+            navBtn.classList.remove("menu-btn");
+        });
+
+      // const langPythonBtn = document.getElementById('lang_img_python')
+      // langnavpyhtonBtn = document.querySelector('.lang_info_python_container')
+      // langpythonBtnExit = document.getElementById('lang_menu_exit');
+
+      // langPythonBtn.addEventListener('click', () => {
+      //     langnavpyhtonBtn.classList.add('menu-btn');
+      // })
+
+      // langpythonBtnExit.addEventListener('click', () => {
+      //     langnavpyhtonBtn.classList.remove('menu-btn');
+      // })
+
+      // const langDjangoBtn = document.getElementById('lang_img_django')
+      // langnavdjnagoBtn = document.querySelector('.lang_info_django_container')
+      // langdjnagoBtnExit = document.getElementById('lang_django_menu_exit');
+
+      // langDjangoBtn.addEventListener('click', () => {
+      //     langnavdjnagoBtn.classList.add('menu-btn');
+      // })
+
+      // langdjnagoBtnExit.addEventListener('click', () => {
+      //     langnavdjnagoBtn.classList.remove('menu-btn');
+      // })
+
+      // const langjavaBtn = document.getElementById('lang_img_java')
+      // langnavjavaBtn = document.querySelector('.lang_info_java_container')
+      // langjavaBtnExit = document.getElementById('lang_java_menu_exit');
+
+      // langjavaBtn.addEventListener('click', () => {
+      //     langnavjavaBtn.classList.add('menu-btn');
+      // })
+
+      // langjavaBtnExit.addEventListener('click', () => {
+      //     langnavjavaBtn.classList.remove('menu-btn');
+      // })
+
+      // const langcppBtn = document.getElementById('lang_img_cpp')
+      // langnavcppBtn = document.querySelector('.lang_info_cpp_container')
+      // langcppBtnExit = document.getElementById('lang_cpp_menu_exit');
+
+      // langcppBtn.addEventListener('click', () => {
+      //     langnavcppBtn.classList.add('menu-btn');
+      // })
+
+      // langcppBtnExit.addEventListener('click', () => {
+      //     langnavcppBtn.classList.remove('menu-btn');
+      // })
+
+      // const langcBtn = document.getElementById('lang_img_c')
+      // langnavcBtn = document.querySelector('.lang_info_c_container')
+      // langcBtnExit = document.getElementById('lang_c_menu_exit');
+
+      // langcBtn.addEventListener('click', () => {
+      //     langnavcBtn.classList.add('menu-btn');
+      // })
+
+      // langcBtnExit.addEventListener('click', () => {
+      //     langnavcBtn.classList.remove('menu-btn');
+      // })
+
+      // const langhtmlBtn = document.getElementById('lang_img_html')
+      // langnavhtmlBtn = document.querySelector('.lang_info_html_container')
+      // langhtmlBtnExit = document.getElementById('lang_html_menu_exit');
+
+      // langhtmlBtn.addEventListener('click', () => {
+      //     langnavhtmlBtn.classList.add('menu-btn');
+      // })
+
+      // langhtmlBtnExit.addEventListener('click', () => {
+      //     langnavhtmlBtn.classList.remove('menu-btn');
+      // })
+
+      // const langsassBtn = document.getElementById('lang_img_sass')
+      // langnavsassBtn = document.querySelector('.lang_info_sass_container')
+      // langsassBtnExit = document.getElementById('lang_sass_menu_exit');
+
+      // langsassBtn.addEventListener('click', () => {
+      //     langnavsassBtn.classList.add('menu-btn');
+      // })
+
+      // langsassBtnExit.addEventListener('click', () => {
+      //     langnavsassBtn.classList.remove('menu-btn');
+      // })
+
+      // const langcssBtn = document.getElementById('lang_img_css')
+      // langnavcssBtn = document.querySelector('.lang_info_css_container')
+      // langcssBtnExit = document.getElementById('lang_css_menu_exit');
+
+      // langcssBtn.addEventListener('click', () => {
+      //     langnavcssBtn.classList.add('menu-btn');
+      // })
+
+      // langcssBtnExit.addEventListener('click', () => {
+      //     langnavcssBtn.classList.remove('menu-btn');
+      // })
+
+      // const langjavascriptBtn = document.getElementById('lang_img_javascript')
+      // langnavjavascriptBtn = document.querySelector('.lang_info_javascript_container')
+      // langjavascriptBtnExit = document.getElementById('lang_javascript_menu_exit');
+
+      // langjavascriptBtn.addEventListener('click', () => {
+      //     langnavjavascriptBtn.classList.add('menu-btn');
+      // })
+
+      // langjavascriptBtnExit.addEventListener('click', () => {
+      //     langnavjavascriptBtn.classList.remove('menu-btn');
+      // })
+
+      // const langreactBtn = document.getElementById('lang_img_react')
+      // langnavreactBtn = document.querySelector('.lang_info_react_container')
+      // langreactBtnExit = document.getElementById('lang_react_menu_exit');
+
+      // langreactBtn.addEventListener('click', () => {
+      //     langnavreactBtn.classList.add('menu-btn');
+      // })
+
+      // langreactBtnExit.addEventListener('click', () => {
+      //     langnavreactBtn.classList.remove('menu-btn');
+      // })
+    </script>
+</body>
+
+</html>
