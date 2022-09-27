@@ -203,7 +203,11 @@ img{
 
     .section_1{
         .title{
-            font-weight: 600;
+            border: 1px solid white;
+            border-radius: 30px;
+            width: max-content;
+            padding: .2em 1em;
+            font-weight: 400;
         }
 
         .pro{
@@ -228,6 +232,9 @@ img{
             margin-top: 1em;
             font-size: 1.1em;
             text-align: center;
+            border: 1px solid white;
+            border-radius: 30px;
+            padding: .5em;
         }
     }
 
@@ -239,16 +246,26 @@ img{
     margin-top: .5em;
     .contact_me{
         margin: 1em;
+        .heading{
+            border: 1px solid white;
+            width: max-content;
+            padding: .3em .8em;
+            border-radius: 30px;
+        }
 
         .details{
+            text-align: center;
             margin-top: .5em;
             margin-bottom: 1em;
+            border: 1px solid white;
+            padding: .8em;
+            border-radius: 20px;
             .con{
                 border: 1px solid white;
                 border-radius: 30px;
                 width: max-content;
-                margin-top: -1.4em;
-                margin-left: 3.5em;
+                margin-top: .4em;
+                // margin-left: 3.5em;
                 padding: 0 .5em;
 
                 &:hover{

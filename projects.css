@@ -157,7 +157,13 @@ img {
   margin: 1em;
 }
 .main_body .section_1 .title {
-  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.2em 1em;
+  font-weight: 400;
 }
 .main_body .section_1 .pro {
   margin-top: 2em;
@@ -178,6 +184,9 @@ img {
   margin-top: 1em;
   font-size: 1.1em;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 0.5em;
 }
 
 .footer {
@@ -186,9 +195,21 @@ img {
 .footer .contact_me {
   margin: 1em;
 }
+.footer .contact_me .heading {
+  border: 1px solid white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.3em 0.8em;
+  border-radius: 30px;
+}
 .footer .contact_me .details {
+  text-align: center;
   margin-top: 0.5em;
   margin-bottom: 1em;
+  border: 1px solid white;
+  padding: 0.8em;
+  border-radius: 20px;
 }
 .footer .contact_me .details .con {
   border: 1px solid white;
@@ -196,8 +217,7 @@ img {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  margin-top: -1.4em;
-  margin-left: 3.5em;
+  margin-top: 0.4em;
   padding: 0 0.5em;
 }
 .footer .contact_me .details .con:hover {
