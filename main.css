@@ -165,7 +165,7 @@ img {
   width: max-content;
   padding: 0.1em 0.5em 0.1em 0.5em;
   border-radius: 30px;
-  margin-left: 6.6em;
+  margin-left: 7em;
 }
 .main_body .section_1 .details .profe {
   border: 1px solid white;
@@ -267,6 +267,10 @@ img {
   border-radius: 30px;
 }
 .main_body .section_3 .project_container .project_img_container .kp .pro, .main_body .section_3 .project_container .project_img_container .pks .pro, .main_body .section_3 .project_container .project_img_container .dummy .pro {
+  border: 1px solid white;
+  margin: 0.5em 1em;
+  padding: 0.2em 0;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
 }
