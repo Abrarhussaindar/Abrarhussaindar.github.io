@@ -255,6 +255,7 @@ img{
                 display: flex;
                 justify-content: center;
                 margin: 1em;
+                text-align: center;
                 letter-spacing: .5px;
                 line-height: 35px;
             }
@@ -263,6 +264,7 @@ img{
                 border: 1px solid white;
                 // margin-top: 1.5em;
                 padding: .8em;
+                text-align: center;
                 border-radius: 30px;
                 display: flex;
                 justify-content: center;
@@ -438,6 +440,7 @@ img{
         }
 
         .details{
+            text-align: center;
             margin-top: .5em;
             margin-bottom: 1em;
             border: 1px solid white;
