@@ -426,7 +426,7 @@ img {
     position: unset;
     display: flex;
     justify-content: space-between;
-    margin-right: 8em;
+    margin-right: 8.3em;
     margin-top: 1.5em;
   }
   .navbar_container .nav_menu .nav_con ul {
@@ -435,7 +435,7 @@ img {
     flex-direction: row;
   }
   .navbar_container .nav_menu .nav_con ul li a {
-    font-size: 13px;
+    font-size: 11px;
   }
   .navbar_container .nav_menu .nav_con ul li:before {
     content: "";
@@ -487,8 +487,8 @@ img {
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
-    margin-top: 6.5em;
-    font-size: 1.5em;
+    margin-top: 8em;
+    font-size: 1.3em;
   }
   .main_body .section_3 {
     margin-top: 11em;
