@@ -408,8 +408,8 @@ img {
     width: 100vw;
   }
   .navbar_container .nav_menu .nav_head {
-    margin-left: 10em;
-    margin-top: 2.5em;
+    margin-left: 8em;
+    margin-top: 1.3em;
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
@@ -426,8 +426,8 @@ img {
     position: unset;
     display: flex;
     justify-content: space-between;
-    margin-right: 11em;
-    margin-top: 2.5em;
+    margin-right: 8em;
+    margin-top: 1.5em;
   }
   .navbar_container .nav_menu .nav_con ul {
     position: unset;
@@ -441,11 +441,11 @@ img {
     content: "";
   }
   .main_body {
-    margin: 0.5em 12.5em 0 11em;
+    margin: -1em 10em 0 9em;
   }
   .main_body .section_1 {
     display: flex;
-    margin-top: 2em;
+    justify-content: space-between;
   }
   .main_body .section_1 .pic {
     width: -webkit-min-content;
@@ -455,12 +455,13 @@ img {
   }
   .main_body .section_1 .pic img {
     width: 30vw;
+    height: 60vh;
     border-radius: 50px;
   }
   .main_body .section_1 .details {
-    width: 40vw;
-    margin-left: 10em;
+    margin-right: -1.5em;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
   }
   .main_body .section_1 .details .name, .main_body .section_1 .details .profe {
@@ -468,9 +469,8 @@ img {
   }
   .main_body .section_1 .details .quote {
     width: 35vw;
-    line-height: 65px;
-    font-size: 2em;
-    margin-top: 2em;
+    line-height: 50px;
+    font-size: 1.5em;
   }
   .main_body .section_1 .details .two {
     display: flex;
@@ -487,7 +487,7 @@ img {
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
-    margin-top: 4.7em;
+    margin-top: 6.5em;
     font-size: 1.5em;
   }
   .main_body .section_3 {

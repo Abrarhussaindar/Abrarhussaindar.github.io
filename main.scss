@@ -508,8 +508,8 @@ img{
             // margin-left: 1em;
             // justify-content: unset;
             .nav_head{
-                margin-left: 10em;
-                margin-top: 2.5em;
+                margin-left: 8em;
+                margin-top: 1.3em;
                 // background-color: blue;
                 height: min-content;
                 // border: 2px solid white;
@@ -526,8 +526,8 @@ img{
                 position: unset;
                 display: flex;
                 justify-content: space-between;
-                margin-right: 11em;
-                margin-top: 2.5em;
+                margin-right: 8em;
+                margin-top: 1.5em;
                 // border: 2px solid white;
 
                 ul {
@@ -549,12 +549,12 @@ img{
         
     }
     .main_body{
-        margin: .5em 12.5em 0 11em;
+        margin: -1em 10em 0 9em;
         // border: 2px solid white;
         .section_1{
             display: flex;
-            // justify-content: space-between;
-            margin-top: 2em;
+            justify-content: space-between;
+            // margin-top: 2em;
             // border: 2px solid white;
             .pic{
                 // border: 2px solid white;
@@ -562,16 +562,17 @@ img{
                 margin: 1em;
                 img{
                     width: 30vw;
+                    height: 60vh;
                     border-radius: 50px;
                 }
             }
 
             .details{
                 // border: 2px solid white;
-                width: 40vw;
-                margin-left: 10em;
+                // width: 20vw;
+                margin-right: -1.5em;
                 display: flex;
-                // justify-content: space-between;
+                justify-content: space-between;
                 flex-direction: column;
                 .name,.profe{
                     display: none;
@@ -580,10 +581,10 @@ img{
                     // margin: 0;
                     // border: 2px solid white;
                     width: 35vw;
-                    line-height: 65px;
+                    line-height: 50px;
                     // height: max-content;
-                    font-size: 2em;
-                    margin-top: 2em;
+                    font-size: 1.5em;
+                    // margin-top: 2em;
                     // font-size: .6em;
                     // font-weight: normal;
                     // font-style: normal;
@@ -607,7 +608,7 @@ img{
                         border-radius: 30px;
                         padding: .3em 1em .3em 1em;
                         height: min-content;
-                        margin-top: 4.7em;
+                        margin-top: 6.5em;
                         font-size: 1.5em;
                     }
                 }
